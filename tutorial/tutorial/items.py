@@ -43,3 +43,8 @@ class TiebaItem(scrapy.Item):
     topic = scrapy.Field()
     link = scrapy.Field()
     reply = scrapy.Field()
+    
+class UserItem(scrapy.Item):
+    user = scrapy.Field()
+    link = scrapy.Field()
+    follower = scrapy.Field()
