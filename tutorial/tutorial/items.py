@@ -48,3 +48,9 @@ class UserItem(scrapy.Item):
     user = scrapy.Field()
     link = scrapy.Field()
     follower = scrapy.Field()
+    
+class BaInfoItem(scrapy.Item):
+    name = scrapy.Field()
+    link = scrapy.Field()
+    follower = scrapy.Field()
+    topic = scrapy.Field()
